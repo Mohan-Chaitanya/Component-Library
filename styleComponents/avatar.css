@@ -1,0 +1,13 @@
+.avatar__component {
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+  }
+  
+  .avatar__component img {
+    margin: 0.5rem;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px hsl(0, 0%, 48%);
+  }
