@@ -1,1 +1,1 @@
-Commit Check
+This branch includes the avatar and alert components of my component library

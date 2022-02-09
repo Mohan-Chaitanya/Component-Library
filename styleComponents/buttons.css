@@ -1,0 +1,54 @@
+.buttons__component button{
+    cursor: pointer;
+}
+
+.primary__btn {
+    border: 1px solid black;
+    background-color: var(--green-soft-darkShade);
+    padding: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px 0 1rem 0;
+    font-weight: bold;
+}
+
+.primary__btn:hover{
+    background-color: rgb(185, 218, 175);
+    transition: 500ms;
+    
+}
+
+.link__btn {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: rgb(92, 0, 92);
+}
+
+.link__btn:hover{
+    text-decoration: underline;
+}
+
+.icon__btn {
+    background-image: url('../resources/svg/mail.svg');
+    background-repeat: no-repeat;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.icon__btn span{
+    padding: 1rem;
+}
+
+.floating__action__btn {
+   font-size: 1.5rem;
+   font-weight: 700;
+   border-radius: 50%;
+   height: 2rem;
+   width: 2rem;
+   border: none;
+   background-color: blueviolet;
+   color: white;
+}

@@ -1,0 +1,17 @@
+:root {
+  --black-darkShade: hsl(0, 0%, 0%);
+  --black-lightShade: hsl(0, 0%, 19%);
+  --grey-darkShade: hsl(0, 0%, 50%);
+  --grey-lightShade: hsl(0, 0%, 80%);
+  --white-milk: hsl(0, 0%, 100%);
+  --white-contrast: hsl(0, 100%, 95%);
+  --red-darkShade: hsl(0, 100%, 50%);
+  --red-lightShade: hsl(0, 90%, 88%);
+  --side-heading: hsl(76, 97%, 27%);
+  --green-soft-darkShade: hsl(80, 95%, 37%);
+  --green-soft-lightShade: hsl(80, 100%, 91%);
+  --blue-darkShade: hsl(240, 100%, 50%);
+  --blue-lightShade: hsl(240, 91%, 87%);
+  --skyBlue-darkShade: hsl(197, 97%, 37%);
+  --skyBlue-lightShade: hsl(197, 100%, 88%);
+}

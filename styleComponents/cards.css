@@ -1,0 +1,148 @@
+.card__component1,
+.card__component2 {
+  display: flex;
+  padding: 1rem;
+}
+
+.card__style1,
+.card__style2,
+.card__style3,
+.card__style4 {
+  width: 20%;
+  position: relative;
+  text-align: center;
+  margin-right: 1rem;
+  border: 2px solid rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.cart__block {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(172, 169, 169);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.card__style1 img {
+  height: 10rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card__style2 img {
+  height: 10rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card__style3 img {
+  height: 10rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card__style4 {
+  display: flex;
+  width: 30%;
+  height: 15rem;
+  overflow: auto;
+}
+
+.card__style4 img {
+  width: 50%;
+  background-size: cover;
+  /* object-fit: contain; */
+}
+
+.card__style4 .cart__block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card__style4 .cart__block button {
+  width: 5rem;
+}
+
+.cart__block img {
+  width: 3rem;
+  height: 2rem;
+}
+
+.cart__block button {
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.cart__block button:hover {
+  background-color: #4c8042d2;
+}
+
+.card__style1 span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("../resources/svg/cancel.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 2rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.card__style2 span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  height: 1.5rem;
+  text-align: center;
+  background-color: burlywood;
+  border-radius: 0 0 0 5px;
+  padding-left: 5px;
+}
+
+.over__lay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 50%;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: white;
+  font-size: larger;
+}
+
+.card__style__shadow {
+  margin: 1rem;
+  box-shadow: 0 0 3px 3px rgb(104, 98, 98);
+  border-radius: 1rem;
+}
+
+.card__style__text {
+  background-color: #5d7580;
+  color: white;
+  border: none;
+  width: 25%;
+  text-align: left;
+  font-weight: 100;
+  padding: 1rem;
+}
+
+.card__style__text .card__title,
+.card__content {
+  text-align: left;
+}
+
+.card__style__text p {
+  border-bottom: 0.5px solid rgb(255, 255, 255);
+}
+
+.card__style__text a {
+  color: orange;
+  text-decoration: none;
+  padding: 1rem;
+}
