@@ -1,0 +1,21 @@
+.round__image__div {
+  width: 15rem;
+  height: 15rem;
+}
+
+.round__image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.responsive__image__div {
+  width: 30%;
+  height: 10%;
+}
+
+.responsive__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}

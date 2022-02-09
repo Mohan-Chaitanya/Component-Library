@@ -1,0 +1,33 @@
+.input__component {
+    width:70%;
+}
+
+.input__field {
+    height: 2rem;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+}
+.valid__input {    
+    background-color: rgb(139, 241, 139);
+}
+
+.error__input {
+    background-color: #db6868;
+}
+
+::placeholder{
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.primary__input {
+    background-color: rgb(107, 172, 247);
+}
+
+.secondary__input {
+    background-color: rgb(211, 144, 89);
+}

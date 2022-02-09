@@ -3,13 +3,18 @@
 @import "./styleComponents/avatar.css";
 @import './styleComponents/variables.css';
 @import './styleComponents/alert.css';
+@import './styleComponents/badges.css';
+@import './styleComponents/buttons.css';
+@import './styleComponents/cards.css';
+@import './styleComponents/images.css';
+@import './styleComponents/input.css';
 
 body {
   font-family: "Ubuntu", sans-serif;
 }
 
 .component__heading {
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 0;
     text-decoration: underline;
     color: var(--side-heading);
